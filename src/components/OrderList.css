@@ -1,0 +1,103 @@
+.order-list-container {
+    max-width: 90%;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+  }
+  
+  .order-table th,
+  .order-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .order-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .status-label {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .status-label.completed {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .status-label.cancelled {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .status-label.in-progress {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .action-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .action-button.start {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .action-button.complete {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .action-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .cancel-button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .cancel-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .edit-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .edit-link:hover {
+    text-decoration: underline;
+  }
+  
+  .disabled-link {
+    color: gray;
+  }
+  
